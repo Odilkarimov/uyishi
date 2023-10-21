@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.text-font {
+  color: #af4425;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text-font2 {
+  color: #000;
+  text-align: center;
+  font-family: Circe;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.smsk {
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.btn-font {
+  width: 215px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #af4425;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
